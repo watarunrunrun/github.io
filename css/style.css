@@ -8,17 +8,78 @@ h1{
 }
 .wrapper{
   padding:0 15px;
+  
+}
+.wrapper h1{
+  opacity: 0.5;
+  letter-spacing:25px;
 }
 header{
   background-color: greenyellow;
-  height: 50px;
+  height: 150px;
   color:blue
+  
 }
 header img{
   width: 60px;
   height: 100%;
 }
 header p{
-  font-size:20px;
+  font-size:120px;
   font-size:serif;
+  color:black;
+  background-color: black;
+  margin-bottom: 120px;
+  display:absolute;
+}
+footer{
+  height:90px;
+  background-color: blueviolet;
+}
+input,textarea{
+
+  width:400px;
+  margin:10px 0 30px 0;
+  padding:20px;
+  border: solid 3px aquamarine;
+  font-size: 20px;
+
+  
+}
+
+
+
+.container{
+  margin: 0 auto;
+  width: 600px;
+}
+.btn{
+  display: inline-block;
+  font-size:30px;
+  margin: 120px;
+  text-align: center;
+  width: 500px;
+  
+}
+.twitter{
+  background-color: blue;
+  
+}
+.facebook{
+  background-color: blueviolet;
+}
+.time{
+  background-color: crimson;
+}
+.btn a{
+  color:white;
+  padding:15px;
+  opacity: 0.5;
+  border-radius:10px ;
+}
+.btn a:hover{
+  opacity:1;
+}
+.push{
+  
 }
