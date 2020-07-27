@@ -1,9 +1,15 @@
-.container img{
-  width:250px;
+*{
+  box-sizing: border-box;     /*border,paddingをwidethに含める*/
+}
+.container {
+  width:100%;
+  margin: 0 auto;
+  max-width: 1170px;
 }
 h1{
   font-size :50px;
   color:skyblue;
+  font-weight: normal;
   
 }
 .wrapper{
@@ -13,27 +19,33 @@ h1{
 .wrapper h1{
   opacity: 0.5;
   letter-spacing:25px;
+  
 }
 header{
-  background-color: greenyellow;
-  height: 150px;
-  color:blue
+  background-color: rgba(186, 146, 209, 0.205);
+  height: 65px;
+  color:blue;
+  width: 100%;
   
+}
+.menu-icon {
+  color: white;
+  float:right ;
+  font-size: 25px;
+  padding: 21px 0;
+  /* displayをnoneに指定してください */
+  
+}
+.header-left span{
+  display: none;
 }
 header img{
   width: 60px;
-  height: 100%;
+  
 }
-header p{
-  font-size:120px;
-  font-size:serif;
-  color:black;
-  background-color: black;
-  margin-bottom: 120px;
-  display:absolute;
-}
+
 footer{
-  height:90px;
+  height:100%;
   background-color: blueviolet;
 }
 input,textarea{
@@ -49,16 +61,14 @@ input,textarea{
 
 
 
-.container{
-  margin: 0 auto;
-  width: 600px;
-}
+
 .btn{
   display: inline-block;
   font-size:30px;
-  margin: 120px;
+  margin: 120px 0;
   text-align: center;
-  width: 500px;
+  width: 100%;
+  
   
 }
 .twitter{
@@ -80,6 +90,141 @@ input,textarea{
 .btn a:hover{
   opacity:1;
 }
-.push{
+.login{
+  color: aliceblue;
+  background-color: rgba(0, 232, 248, 0.705);
+
+
+  line-height: 65px;
+  padding: 0 20px;
+  display: block;
+}
+header img{
+  float:left;
+
+}
+/*.login:hover{
+  background-color: crimson;*/
+
+                                              /*写真の大きさ*/
+.phote img{
+  width: 30%;
   
+}
+.phote{
+  background-color: darkgoldenrod;
+  padding: 20px;
+}
+.header-right{
+  float: right;
+  
+  /*background-color: rgba(0, 232, 248, 0.705);*/
+  transition:all 0.5s;
+}
+.header-right:hover{
+  background-color: darkblue;
+}
+.button{
+  text-align: center;
+  padding:30px ;
+}
+.push{
+  background-color: blue;
+  opacity: 0.9;
+  color:white;
+  display: inline-block;
+  width:150px;
+  height: 80px;
+  line-height: 80px;
+  box-shadow:0 10px chocolate;
+  cursor:pointer;
+}
+.push:active{
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+}
+.rine{
+  border-bottom:3px solid darkblue;
+}
+.f-photo{
+  width: 50px;
+  margin-top: 15px;
+}
+footer p{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+header{
+  position:fixed;
+  top: 0;
+  z-index: 10;
+}
+
+@media (max-width:1200px){
+  /*0px以上で適用する内容*/
+  h1{
+    color: darkviolet;
+  }
+  h2{
+    color: blue;
+  }
+  .phote img{
+    width: 45%;
+  }
+  h3{
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width:900px){
+  
+  h1{
+    color: dodgerblue;
+  }
+  .btn a{
+    display: block;
+    
+  }
+  .facebook{
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width:600px){
+  
+  h1{
+    color: black;
+    font-size: 40px;
+    
+    font-weight: bold;
+  }
+  .wrapper h1{
+    letter-spacing: 3px;
+  }
+  .main img{
+    width: 100%;
+  }
+footer{
+  text-align: center;
+}
+.btn a{
+  
+  width: 100%;
+}
+.wrapper{
+  text-align: center;
+}
+ h5{
+   text-align: left;
+ } 
+input,textarea{
+  width:100%;
+}
+
+}
+.header-left span{
+  display: block;
+}
+
 }
