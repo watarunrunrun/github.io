@@ -1,0 +1,12 @@
+
+main{
+  font-size:50px;
+}
+section{
+  background: skyblue;
+  width: 120px;
+  text-align: center;
+  color: beige;
+  margin: 20px;
+  border-radius: 15px;
+}
