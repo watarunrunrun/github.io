@@ -9,4 +9,5 @@ section{
   color: beige;
   margin: 20px;
   border-radius: 15px;
+  cursor: pointer;
 }
